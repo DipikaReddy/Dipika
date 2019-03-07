@@ -4,7 +4,7 @@ CREATE COMPUTE MODULE Barfile_toolkitflow_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
 		 CALL CopyMessageHeaders();
-		 
+		 -- CALL CopyMessageHeaders();
 		CALL CopyEntireMessage();
 		 
 		 
